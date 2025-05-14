@@ -1,0 +1,32 @@
+remote_theme: mmistakes/minimal-mistakes@4.27.1
+minimal_mistakes_skin: "onyx"  # Choose your preferred skin
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+title: Andy Huang
+description: My personal web portfolio
+url: "https://ahuang53.github.io"
+baseurl: ""
+author:
+  name: "Andy Huang"
+  email: "andyhu35@gmail.com"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      read_time: false
+header_pages:
+  - about.md

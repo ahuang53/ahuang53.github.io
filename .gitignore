@@ -1,0 +1,23 @@
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Dependency directories
+.bundle/
+vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ruby-related
+*.gem
+.ruby-version
+.ruby-gemset
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
