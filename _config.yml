@@ -8,6 +8,7 @@ plugins:
 title: Andy Huang
 description: My personal web portfolio
 url: "https://ahuang53.github.io"
+logo: /assets/images/AH Logo.png
 baseurl: ""
 author:
   name: "Andy Huang"
